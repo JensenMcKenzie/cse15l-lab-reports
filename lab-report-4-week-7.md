@@ -1,9 +1,10 @@
 # Part 1
 Question: In DocSearchServer.java, change the main method so that rather than hardcoding the search on the ./technical directory, it uses the second command-line argument for the path to search
 
-VIM Commands (27 keys): 
+VIM Commands (29 keys): 
 ```
 /tec
+<Enter>
 n
 ce
 <Esc>
@@ -13,6 +14,7 @@ i
 args[1]
 <Esc>
 :wq
+<Enter>
 ```
 
 1:
@@ -46,4 +48,7 @@ args[1]
 ```
 This puts us in insert mode, and adds the argument "args[1]" to the Handler method.
 ![ex2](4-4.png)
+
+---
+
 # Part 2
